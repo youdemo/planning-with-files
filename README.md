@@ -121,6 +121,16 @@ Or manually create `.cursor/rules/planning-with-files.mdc` in your project with 
 
 > **Note:** Hooks (PreToolUse, Stop) are Claude Code specific and won't work in Cursor. The core planning workflow still applies.
 
+### One-Line Installer (Skills Only)
+
+Extract just the skill directly into your current directory:
+
+```bash
+curl -L https://github.com/OthmanAdi/planning-with-files/archive/master.tar.gz | tar -xzv --strip-components=2 "planning-with-files-master/skills/planning-with-files"
+```
+
+Then move `planning-with-files/` to `~/.claude/skills/`.
+
 ## Usage
 
 Once installed, Claude will automatically:
