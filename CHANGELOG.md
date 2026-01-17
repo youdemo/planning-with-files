@@ -2,6 +2,26 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.2.2] - 2026-01-17
+
+### Fixed
+
+- **Restored Skill Activation Language** (PR #34)
+  - Restored the activation trigger in SKILL.md description
+  - Description now includes: "Use when starting complex multi-step tasks, research projects, or any task requiring >5 tool calls"
+  - This language was accidentally removed during the v2.2.1 merge
+  - Helps Claude auto-activate the skill when detecting appropriate tasks
+
+### Changed
+
+- Updated version to 2.2.2 in all SKILL.md files and plugin.json
+
+### Thanks
+
+- Community members for catching this issue
+
+---
+
 ## [2.2.1] - 2026-01-17
 
 ### Added
